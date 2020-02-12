@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "description": "Parse advanced search query into objects",
+  "description": "A simple top-down parser for advanced search queries",
   "scripts": {
     "test": "npx jest lib/*.spec.ts",
     "prepublish": "tsc"
@@ -13,7 +13,7 @@
     "query",
     "parser"
   ],
-  "author": "Sung Won Cho",
+  "author": "Sung Won Cho <sung@monomax.sh> (https://sungwoncho.com)",
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/jest": "^25.1.2",

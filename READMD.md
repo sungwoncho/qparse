@@ -2,7 +2,7 @@
 
 A top-down parser to turn advanced search query strings into JavaScript objects.
 
-It has no dependency and provides a simple interface with readable implementation.
+It has *no dependency* and provides *a simple interface* with *readable implementation*.
 
 ## Installation
 
