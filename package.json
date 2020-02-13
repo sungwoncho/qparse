@@ -2,6 +2,10 @@
   "name": "qparse",
   "version": "0.1.1",
   "main": "dist/index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/sungwoncho/qparse.git"
+  },
   "types": "dist/index.d.ts",
   "description": "A simple top-down parser for advanced search queries",
   "scripts": {
