@@ -38,6 +38,10 @@ q.parse('tag:foo sort:baz quz qux', []);
 // => { text: 'tag:foo sort:baz quz qux', filters: {} }
 ```
 
+## Example
+
+Used by https://github.com/dnote/dnote
+
 ## LICENSE
 
 Apache 2.0
