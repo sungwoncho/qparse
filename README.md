@@ -8,7 +8,7 @@ It has *no dependency* and provides *a simple interface* with *readable implemen
 
 ## Installation
 
-```
+```bash
 # Using npm
 npm install --save qparse
 
@@ -22,7 +22,7 @@ yarn add qparse
 
 Parse the given `str` while matching the `keywords`.
 
-```javscript
+```js
 const q = require('qparse');
 
 q.parse('tag:foo tag:bar sort:baz quz qux', ['tag', 'sort']);
@@ -38,9 +38,9 @@ q.parse('tag:foo sort:baz quz qux', []);
 // => { text: 'tag:foo sort:baz quz qux', filters: {} }
 ```
 
-## Example
+## Real World Example
 
-Used by https://github.com/dnote/dnote
+Used by [Dnote](https://github.com/dnote/dnote).
 
 ## LICENSE
 
